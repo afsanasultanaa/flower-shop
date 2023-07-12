@@ -101,5 +101,100 @@ body{
     margin: 100px 60px 0px 20px;
     background-color: #477D1126;
     border-radius: 300px 300px 0px 0px;
-
 }
+
+.flower-name {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ff8ca5;
+    margin: 5px auto;
+    color: #ffffff;text-align: center;font-size: 18px;font-style: normal;font-weight: 900;line-height: 35px;text-decoration-line: underline;
+}
+
+/* service section */
+.service {
+    max-width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05); 
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 100px auto;
+    
+}
+
+.service .service-img{
+    display: flex;
+    justify-content:center;
+    padding: 60px 200px 300px;
+}
+
+#figure {
+    margin: 100px;
+    max-width:0%;
+    display: flex;
+    align-items:center;
+    justify-items:space-between;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+img.scaled {
+    width: 50%;
+  }
+  
+
+  /* Sale announcment section */
+
+  .sale{
+    display: flex;
+    background-color: #E554730D;
+    justify-content: center;
+  }
+
+  .sale-description {
+    padding: 200px;
+    display: inline;
+  }
+
+  .sale-heading{
+    color: #272727;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .sale-par{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+ .sale .btn-primary{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 200px;
+ }
+  
+ .sale-pic{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    align-content:baseline;
+    padding: 100px 200px 100px 0px;
+ }
+
+
+
