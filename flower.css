@@ -256,9 +256,11 @@ img.scaled {
     width: 1440px;
     height: 449px;
     background-color: rgb(255, 218, 245);
+    background-image:;
     justify-content: center;justify-content: center;
     vertical-align: middle;
     margin: 100px auto;
+    padding: 100px;
 }
 
 .subscribe .sub-title {
@@ -299,7 +301,7 @@ img.scaled {
 
 .footer{
     background-color: #000000;
-    texxt
+    padding: 100px;
 }
 
 .footer .foot-h{
