@@ -1,12 +1,14 @@
 /* heading section*/
 
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
-.header{
+
+.header {
     background-color: #E554731A;
 }
-.banner{
+
+.banner {
 
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -14,7 +16,7 @@ body{
     justify-content: space-between;
 }
 
-.banner-heading{
+.banner-heading {
     color: #272727;
     font-family: Lato;
     font-size: 68px;
@@ -24,7 +26,7 @@ body{
     max-width: 580px;
 }
 
-.banner .banner-description{
+.banner .banner-description {
     display: flex;
     width: 634px;
     flex-direction: column;
@@ -42,7 +44,8 @@ body{
     padding-right: 100px;
     margin-bottom: 0px;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 8px;
     background-color: #E55473;
     border: 0px;
@@ -55,24 +58,37 @@ body{
 
 /* main section */
 
-.Feature-Product .section-title{
+.Feature-Product .section-title {
     margin: 80px 500px 20px;
-    color: #272727;text-align: center;font-family: Lato;font-size: 40px;font-style: normal;font-weight: 800;line-height: normal;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
+
 .section-description {
     display: block;
     text-align: center;
     margin: auto;
-    width: 594px;flex-direction: column;flex-shrink: 0;color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;font-style: normal;font-weight: 400;line-height: 30px;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 
 .img-section {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .img-section .pink {
@@ -84,7 +100,8 @@ body{
     border-radius: 300px 300px 0px 0px;
 
 }
-.img-section .bucket{
+
+.img-section .bucket {
     width: 210px;
     height: 328px;
     padding: 70px 80px 0px;
@@ -94,7 +111,7 @@ body{
 
 }
 
-.yellow{
+.yellow {
     width: 210px;
     height: 328px;
     padding: 70px 80px 0px;
@@ -109,7 +126,13 @@ body{
     justify-content: space-evenly;
     background-color: #ff8ca5;
     margin: 5px auto;
-    color: #ffffff;text-align: center;font-size: 18px;font-style: normal;font-weight: 900;line-height: 35px;text-decoration-line: underline;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
 /* service section */
@@ -117,26 +140,26 @@ body{
     max-width: 1440px;
     height: 320px;
     border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05); 
+    background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: center;
     vertical-align: middle;
     margin: 100px auto;
-    
+
 }
 
-.service .service-img{
+.service .service-img {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 60px 200px 300px;
 }
 
 #figure {
     margin: 100px;
-    max-width:0%;
+    max-width: 0%;
     display: flex;
-    align-items:center;
-    justify-items:space-between;
+    align-items: center;
+    justify-items: space-between;
     float: right;
     width: 50%;
     text-align: center;
@@ -144,32 +167,32 @@ body{
 
 img.scaled {
     width: 50%;
-  }
-  
+}
 
-  /* Sale announcment section */
 
-  .sale{
+/* Sale announcment section */
+
+.sale {
     display: flex;
     background-color: #E554730D;
     justify-content: center;
-  }
+}
 
-  .sale-description {
+.sale-description {
     padding: 200px;
     display: inline;
-  }
+}
 
-  .sale-heading{
+.sale-heading {
     color: #272727;
     font-family: Lato;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
     text-align: center;
-  }
+}
 
-  .sale-par{
+.sale-par {
     display: flex;
     width: 594px;
     flex-direction: column;
@@ -180,50 +203,129 @@ img.scaled {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-  }
+}
 
- .sale .btn-primary{
+.sale .btn-primary {
     display: inline-flex;
     justify-content: center;
     margin: 0 200px;
- }
-  
- .sale-pic{
+}
+
+.sale-pic {
     width: 318px;
     height: 420px;
     flex-shrink: 0;
-    align-content:baseline;
+    align-content: baseline;
     padding: 100px 200px 100px 0px;
- }
+}
 
- /* instagram sec */
+/* instagram sec */
 
- .ig{
+.ig {
     justify-content: center;
- }
+}
 
- .ig .ig-title{
+.ig .ig-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
- }
+}
 
- .ig .ig-description{
+.ig .ig-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
- }
+}
 
- .ig .img-ig{
+.ig .img-ig {
     display: flex;
     justify-content: center;
     gap: 20px;
-    align-items:center;
- }
+    align-items: center;
+}
 
 
- 
+/* subscribe sec */
+
+.subscribe {
+    align-items: center;
+    width: 1440px;
+    height: 449px;
+    background-color: rgb(255, 218, 245);
+    justify-content: center;justify-content: center;
+    vertical-align: middle;
+    margin: 100px auto;
+}
+
+.subscribe .sub-title {
+    color: #272727;
+    text-align:center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subscribe .sub-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.form {
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0 580px;
+}
+
+.form .textarea {
+    display: block;
+    margin: 20px;
+    padding: 18px 35px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #000000;
+    texxt
+}
+
+.footer .foot-h{
+    font-family: Lato;
+    text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.footer .foot-des{
+flex-direction: column;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+.footer .copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
